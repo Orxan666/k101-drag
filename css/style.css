@@ -1,0 +1,37 @@
+#dragArea {
+  padding: 40px;
+  box-shadow: 0 0 20px 0 inset rgb(255, 0, 0);
+}
+#dragArea .dragContent {
+  padding: 30px;
+  border: 2px dashed red;
+  display: flex;
+  flex-wrap: wrap;
+}
+#dragArea .dragContent .drag-item {
+  width: 14.2857142857%;
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  font-size: 30px;
+}
+
+#dropArea {
+  padding: 40px;
+  margin-top: 40px;
+  border: 3px solid green;
+  display: flex;
+}
+#dropArea .drag-item {
+  width: 14.2857142857%;
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
